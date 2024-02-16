@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://cdgfn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+.menuWrapper {
+  display: inline-block;
+  text-align: left; /* Align the menu options to the left within the wrapper */
+}
+
+.menuOption {
+    margin-left: 20px; /* Add spacing between elements */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+.menuOption:hover {
+  background-color: green;
+ 
+   /* Underline on hover */
+    /* Add other hover styles as needed */
+}
+
+.mainContainer {
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  background-image: url('https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+}
+.welcomeIcon {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  border-radius: 50%; /* Make it round-shaped */
+}
+
+.dropdownContent {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdownContent div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownContent div:hover {
+  background-color: #ddd;
+}
+.spacer {
+  margin-bottom: 40px; /* Adjust the margin-bottom to add spacing */
+}
+.imageContainer {
+  display: flex;
+  justify-content: center; /* Center align images */
+}
+
+.foodImage {
+  width: 250px; /* Set width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Add margin between images */
+}
+
+.eventInfoDuplicate {
+  display: inline-block;
+  margin-left: 20px; /* Adjust as needed */
+}
+.eventInfoDuplicate p {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed */
+}
+.menuOption {
+  color: black;
+  text-decoration: none;
+}
+
